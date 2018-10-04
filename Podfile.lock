@@ -1,0 +1,68 @@
+PODS:
+  - AWSAuthCore (2.6.21):
+    - AWSCore (= 2.6.21)
+  - AWSAuthUI (2.6.21):
+    - AWSAuthCore (= 2.6.21)
+    - AWSCore (= 2.6.21)
+  - AWSCognitoIdentityProvider (2.6.21):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.21)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.21)
+  - AWSFacebookSignIn (2.6.21):
+    - AWSAuthCore (= 2.6.21)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+  - AWSMobileClient (2.6.21):
+    - AWSAuthCore (= 2.6.21)
+  - AWSUserPoolsSignIn (2.6.21):
+    - AWSAuthCore (= 2.6.21)
+    - AWSCognitoIdentityProvider (= 2.6.21)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.37.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.37.0):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - AWSAuthUI
+  - AWSCore
+  - AWSFacebookSignIn
+  - AWSMobileClient
+  - AWSUserPoolsSignIn
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSFacebookSignIn
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  AWSAuthCore: f912e4f032092818ee21860a44386c485329a92b
+  AWSAuthUI: 8549f06975c03b653e45623f19d4cb34f16f2e8f
+  AWSCognitoIdentityProvider: 1f724c5e43528580cd9f60f0a1290888793ed473
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: a1ff1d32ea7af235fe64be301c204b34cb1f9f83
+  AWSFacebookSignIn: b18b9e83eb6b117f94c11c4a4e014bbb58b07bfa
+  AWSMobileClient: f61ef1ca52cf561a3831f4c29b8bfc43234db8f3
+  AWSUserPoolsSignIn: 5c2a162e62cdcb47fb0f3f5ede4dec492fc00307
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
+  FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
+
+PODFILE CHECKSUM: 4984a106ad4e67af3f2de4faf4e6c1493f6285cf
+
+COCOAPODS: 1.5.3
